@@ -29,8 +29,8 @@ installation:
                       function save() {
                           var options = {
                               fileName: "Export Sheet",
-                              fileType: "csv",
-                              extension: ".csv",
+                              fileType: "xlsx",
+                              extension: ".xlsx",
                           };
                       fileColumns=[{ "Name": "Name", "Age": "Age", "Country": "Country", "Address": "Address", "Married": "Married" }
                             ];
