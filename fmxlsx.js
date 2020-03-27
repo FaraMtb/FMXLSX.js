@@ -155,7 +155,7 @@ var fmxlsx = {
            
             if( rowObj.hasOwnProperty(p) ) {
                 cellText = rowObj[p] ;
-                console.log( cellText );
+                
               } 
             var cell = { v: cellText };
 
@@ -182,7 +182,7 @@ var fmxlsx = {
        var c = 0;
      for (var p in rowObj) {
               c = this.parse2Int0(c);
-              console.log( p);
+             
               if (this.range.s.r > this.rowCount)
               this.range.s.r = this.rowCount;
               if (this.range.s.c > c)
@@ -195,7 +195,7 @@ var fmxlsx = {
            
             if( rowObj.hasOwnProperty(p) ) {
                 cellText = rowObj[p] ;
-                console.log( cellText );
+                
               } 
             var cell = { v: cellText };
 
@@ -221,14 +221,14 @@ var fmxlsx = {
     createWorkSheet: function() {
         for(var i = 0; i < this.jsonColumns.length; i++) {
               var obj = this.jsonColumns[i];
-              console.log( obj);
+              
               this.jsonColumnHeaderRow(obj);
               
               
         }
         for(var i = 0; i < this.jsondata.length; i++) {
               var obj = this.jsondata[i];
-              console.log( obj);
+              
               this.jsonAddRow(obj);
               
               
