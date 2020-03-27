@@ -34,6 +34,6 @@ installation:
                           };
                       fileColumns=[{ "Name": "Name", "Age": "Age", "Country": "Country", "Address": "Address", "Married": "Married" }
                             ];
-                          Jhxlsx.export(fileOptions,fileColumns,data ,options);
+                          fmxlsx.export(fileOptions,fileColumns,data ,options);
                       }
                       save();
