@@ -85,7 +85,7 @@ var fmxlsx = {
     },
     jhAddRow: function(rowObj) {
         for (var c in rowObj) {
-            console.log(c);
+         
             c = this.parse2Int0(c);
             var cellObj = rowObj[c];
             
@@ -142,7 +142,7 @@ var fmxlsx = {
        var c = 0;
      for (var p in rowObj) {
               c = this.parse2Int0(c);
-              console.log( p);
+             
               if (this.range.s.r > this.rowCount)
               this.range.s.r = this.rowCount;
               if (this.range.s.c > c)
