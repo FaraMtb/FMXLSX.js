@@ -1,3 +1,14 @@
+/*! fmxlsx.js
+ *  A Sheet.js and FileSave.js implementation.
+ *  2020-03-27
+ *
+ *  By Farai Mytambara, http://faramtb.com /https://github.com/FaraMtb
+ *  License: X11/MIT
+ *    See LICENSE.md
+ */
+
+/*global self */
+
 /*
  * ####################################################################################################
  * https://www.npmjs.com/package/xlsx-style
